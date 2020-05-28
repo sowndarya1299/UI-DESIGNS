@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>newspaper</title>
+</head>
+<body id="body">
+<script>
+//body
+var b=document.getElementById("body");
+b.style.backgroundColor="#ECECEC";
+b.style.height = "1500px";
+b.style.width = "1330px";
+b.style.border = "thin solid black";
+
+//1 box
+var x1=document.createElement("div");
+x1.id="head";
+x1.style.height = "167px";
+x1.style.width = "400px";
+//x1.style.border = "thin solid black";
+x1.style.display="inline";
+x1.style.cssFloat = "left";
+
+var z=document.createElement("div");
+z.id="top";
+z.style.height = "160px";
+z.style.width = "200px";
+z.style.border = "thin solid #C0C0C0 ";
+z.style.backgroundColor="#C0C0C0";
+z.style.marginLeft="40px";
+
+var img=document.createElement("IMG");
+img.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCY9yHlfzoxO2Bh2CyAQ6Nmox83Syn2oHGO5363jdT9apBCCui&usqp=CAU");
+img.style.height = "80px";
+img.style.width = "80px";
+img.style.cssFloat = "left";
+img.style.marginLeft="5px";
+img.style.marginTop="5px";
+img.style.marginRight="5px";
+
+
+var para=document.createElement("p");
+para.innerHTML="A newspaper is a periodical publication containing written information about current events and is often typed in black ink with a white or gray background.";
+para.style.font="15px";
+z.appendChild(img);
+z.appendChild(para);
+x1.appendChild(z);
+
+//box2
+var x2=document.createElement("div");
+x2.id="head1";
+x2.style.height = "167px";
+x2.style.width = "422px";
+//x2.style.border = "thin solid black";
+x2.style.cssFloat = "right";
+
+var z1=document.createElement("div");
+z1.id="top1";
+z1.style.height = "160px";
+z1.style.width = "200px";
+z1.style.border = "thin solid #C0C0C0 ";
+z1.style.backgroundColor="#C0C0C0";
+z1.style.marginLeft="40px";
+
+var img1=document.createElement("IMG");
+img1.setAttribute("src","https://i.hipinpakistan.com/large/2016/07/5787d981cd430.png");
+img1.style.height = "80px";
+img1.style.width = "80px";
+img1.style.cssFloat = "left";
+img1.style.marginLeft="5px";
+img1.style.marginTop="5px";
+img1.style.marginRight="5px";
+
+
+var para1=document.createElement("p");
+para1.innerHTML="A newspaper is a periodical publication containing written information about current events and is often typed in black ink with a white or gray background.";
+para1.style.font="15px";
+z1.appendChild(img1);
+z1.appendChild(para1);
+x2.appendChild(z1);
+
+//box3
+var x3=document.createElement("div");
+x3.id="head2";
+x3.style.height = "167px";
+x3.style.width = "500px";
+//x3.style.border = "thin solid black";
+x3.style.cssFloat = "right";
+x3.innerHTML="The Rising Sun";
+x3.style.fontWeight="bold";
+x3.style.fontSize="60px";
+x3.style.textAlign="center";
+
+
+document.body.appendChild(x1);
+document.body.appendChild(x2);
+document.body.appendChild(x3);
+
+
+//hr
+var dhr=document.createElement("div");
+var hr=document.createElement("HR");
+var hr1=document.createElement("HR");
+hr.style.border = "2px solid black";
+hr.style.clear = "both";
+hr1.style.border = "2px solid black";
+hr1.style.clear = "both";
+var p2=document.createElement("p");
+p2.innerHTML="www.newspaper.com";
+p2.style.textAlign="center";
+p2.style.fontWeight="bold";
+dhr.appendChild(hr);
+dhr.appendChild(p2);
+dhr.appendChild(hr1);
+document.body.appendChild(dhr);
+
+//leftside
+left=document.createElement("div");
+left.style.cssFloat="left";
+var div1=document.createElement("div");
+div1.style.width="800px";
+div1.style.marginRight="5px";
+var p3=document.createElement("p");
+p3.style.fontFamily="serif";
+p3.style.fontWeight="bold";
+p3.style.fontSize="40px";
+p3.innerHTML="ELECTRIC CARS: THE FUTURE OF TRANSPORTATION";
+var img2=document.createElement("IMG");
+img2.setAttribute("src","https://wundergroundmusic.com/wp-content/uploads/2016/03/girljogging.jpg");
+img2.style.height = "300px";
+img2.style.width = "790px";
+div1.appendChild(p3);
+div1.appendChild(img2);
+var p4=document.createElement("p");
+p4.innerHTML="Why You Should Go Electric";
+p4.style.textDecoration="underline";
+div1.appendChild(p4);
+var p5=document.createElement("p");
+p5.innerHTML="You can help these cars truly become the future of transportation in a few ways. To start, pledge to go electric when buying your next car! As well, demand electric options at your local dealership–so you can test drive one as well as purchase one the next time you’re in the market for a vehicle. Additionally, share the graphic below on social media so that everyone in your network can do the same.";
+div1.appendChild(p5);
+var p6=document.createElement("p");
+p6.innerHTML="Electric cars require less maintenance than cars that use gasoline. New models hitting the market also offer more flexibility in terms of car size and style for your electric vehicle.";
+div1.appendChild(p6);
+var hr2=document.createElement("HR");
+div1.appendChild(hr2);
+var p6=document.createElement("p");
+p6.innerHTML="Recent News Today Headlines";
+p6.style.textDecoration="underline";
+p6.style.fontWeight="bold";
+div1.appendChild(p6);
+left.appendChild(div1);
+
+
+
+
+
+//4 boxes
+var x45=document.createElement("div");
+x45.style.height = "170px";
+x45.style.width = "800px";
+//x45.style.border = "thin solid black";
+
+var x4=document.createElement("div");
+x4.style.height = "170px";
+x4.style.width = "380px";
+//x4.style.border = "thin solid black";
+x4.style.display="inline";
+x4.style.cssFloat = "left";
+var head1=document.createElement("h4");
+head1.innerHTML="WORLD'S MOST LUXURIOUS VILLAS 2019";
+var imge1=document.createElement("IMG");
+imge1.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNJruNhougav8j10rKS2rtNepnKAol59V4mGJvNN-LUeqLnQgm&usqp=CAU");
+imge1.style.height = "80px";
+imge1.style.width = "80px";
+imge1.style.marginLeft="5px";
+imge1.style.marginTop="5px";
+imge1.style.marginRight="5px";
+imge1.style.cssFloat="left";
+var p7=document.createElement("p");
+p7.innerHTML="Our list of villas this year features hidden gems including over-the-top indulgence to the best of barefoot elegance.From sand and surf to remote mountain retreats.";
+x4.appendChild(head1);
+x4.appendChild(imge1);
+x4.appendChild(p7);
+   
+
+var x5=document.createElement("div");
+x5.style.height = "170px";
+x5.style.width = "380px";
+//x5.style.border = "thin solid black";
+x5.style.cssFloat = "right";
+var head2=document.createElement("h4");
+head2.innerHTML="WORLD'S TALLEST STATUE TO HONOR FREEDOM";
+var imge2=document.createElement("IMG");
+imge2.setAttribute("src","https://cdn.vox-cdn.com/thumbor/ufuiQsIL3FpVim1sT4yorpqEcZE=/0x189:2040x1257/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19206339/akrales_190913_3628_0277.jpg");
+imge2.style.height = "80px";
+imge2.style.width = "80px";
+imge2.style.marginLeft="5px";
+imge2.style.marginTop="5px";
+imge2.style.marginRight="5px";
+imge2.style.cssFloat="left";
+var p8=document.createElement("p");
+p8.innerHTML="The late 2000s–early 2010s global recession, combined with the rapid growth of free web-based alternatives, has helped cause a decline in advertising and circulation, to stanch the losses.";
+x5.appendChild(head2);
+x5.appendChild(imge2);
+x5.appendChild(p8);
+
+x45.appendChild(x4);
+x45.appendChild(x5);
+
+
+
+
+var x67=document.createElement("div");
+x67.style.height = "170px";
+x67.style.width = "800px";
+//x67.style.border = "thin solid black";
+
+var x6=document.createElement("div");
+x6.style.height = "170px";
+x6.style.width = "380px";
+//x6.style.border = "thin solid black";
+x6.style.display="inline";
+x6.style.cssFloat = "left";
+
+var head3=document.createElement("h4");
+head3.innerHTML="ELECTRIC CARS: THE FUTURE OF TRANSPORTATION";
+var imge3=document.createElement("IMG");
+imge3.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHOtTl3xbeIKDmUsN-RIpumw3xY6TxmDvWdF1ddi_1CNnxXb5n&usqp=CAU");
+imge3.style.height = "80px";
+imge3.style.width = "80px";
+imge3.style.marginLeft="5px";
+imge3.style.marginTop="5px";
+imge3.style.marginRight="5px";
+imge3.style.cssFloat="left";
+var p9=document.createElement("p");
+p9.innerHTML="The decline in advertising revenues affected both the print and online media as well as all other mediums; print advertising was once lucrative but has greatly declined.";
+x6.appendChild(head3);
+x6.appendChild(imge3);
+x6.appendChild(p9);
+
+
+
+var x7=document.createElement("div");
+x7.style.height = "170px";
+x7.style.width = "380px";
+//x7.style.border = "thin solid black";
+x7.style.cssFloat = "right";
+var head4=document.createElement("h4");
+head4.innerHTML="LATEST MOBILE NEWS,MOBILE NEWS ON SAMSUNG";
+var imge4=document.createElement("IMG");
+imge4.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfT63CoP39jiTtILxKlPG745S3DmNEgMF4XiI6iMWykhxf_l7n&usqp=CAU");
+imge4.style.height = "80px";
+imge4.style.width = "80px";
+imge4.style.marginLeft="5px";
+imge4.style.marginTop="5px";
+imge4.style.marginRight="5px";
+imge4.style.cssFloat="left";
+var p10=document.createElement("p");
+p10.innerHTML="Many newspapers, besides employing journalists on their own payrolls, also subscribe to news agencies (wire services) (such as the Associated Press, Reuters, or Agence France-Presse). ";
+x7.appendChild(head4);
+x7.appendChild(imge4);
+x7.appendChild(p10);
+
+x67.appendChild(x6);
+x67.appendChild(x7);
+
+
+var div2=document.createElement("div");
+div2.style.width="800px";
+div2.style.marginRight="5px";
+var hr3=document.createElement("HR");
+var head5=document.createElement("h4");
+head5.innerHTML="Centre, states wary of lifting curbs,on cards1 sec ago";
+head5.style.textTransform="uppercase";
+var imge5=document.createElement("IMG");
+imge5.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTrrB0mStd_ZIcC4cPmjp5jbx5_2XThTztLAnI-10akVk-NvL8H&usqp=CAU");
+imge5.style.height = "80px";
+imge5.style.width = "80px";
+imge5.style.marginLeft="5px";
+imge5.style.marginTop="5px";
+imge5.style.marginRight="5px";
+imge5.style.cssFloat="left";
+var p11=document.createElement("p");
+p11.innerHTML="Traditionally by the paper being sold or distributed at newsstands, shops, and libraries, and,Inthe 1990s, made available over the Internet with online newspaper websites. While online newspapers have increased access to newspapers by people with Internet access, people without Internet or computer access (e.g., homeless people, impoverished people and people living in remote or rural regions may not be able to access the Internet, and thus will not be able to read online news). ";
+div2.appendChild(hr3);
+div2.appendChild(head5);
+div2.appendChild(imge5);
+div2.appendChild(p11);
+document.body.appendChild(div2);
+
+
+left.appendChild(x45);
+left.appendChild(x67);
+left.appendChild(div2);
+document.body.appendChild(left);
+
+
+//rightside
+right=document.createElement("div");
+div3=document.createElement("div");
+div3.style.width="500px";
+div3.style.cssFloat="right";
+var head6=document.createElement("h4");
+head6.innerHTML="PRESIDENT";
+var imge6=document.createElement("IMG");
+imge6.setAttribute("src","https://c8.alamy.com/comp/TWH45F/american-flag-woman-usa-sport-athlete-winner-cheering-waving-us-flag-stars-and-stripes-outdoor-running-in-nature-beautiful-cheering-happy-young-multicultural-girl-joyful-and-excited-TWH45F.jpg");
+imge6.style.height = "200px";
+imge6.style.width = "480px";
+div3.appendChild(head6);
+div3.appendChild(imge6);
+head7=document.createElement("h1");
+head7.innerHTML=" A CHINESE COMPANY TO BUILD A FAKE MOON TO REPLACE THE CITY";
+div3.appendChild(head7);
+var p12=document.createElement("p");
+p12.innerHTML="Chengdu, an ancient city in central China";
+var p13=document.createElement("p");
+p13.innerHTML="Come 2020, for children living in Chengdu, China, the book Goodnight Moon may have a completely different meaning. Indeed, according to an article in the People’s Daily (a widely distributed online Chinese newspaper), a local company plans to build an artificial moon that, if completed, would be eight times brighter than the actual moon. ";
+var p14=document.createElement("p");
+p14.innerHTML="Chengdu Aerospace Science and Technology Microelectronics System Research Institute Company plans to accomplish its lofty goal by creating a satellite that's floating in the sky, mimicking the moon's effect on a city at night.";
+var p15=document.createElement("p");
+p15.innerHTML="april 26";
+p15.style.color="grey";
+div3.appendChild(p12);
+div3.appendChild(p13);
+div3.appendChild(p14);
+div3.appendChild(p15);
+right.appendChild(div3);
+div4=document.createElement("div");
+div4.style.width="480px";
+div4.style.height="520px";
+div4.style.border = "1px solid black";
+div4.style.padding="2px";
+div4.style.cssFloat="right";
+head8=document.createElement("h4");
+head8.style.textTransform="uppercase";
+head8.innerHTML="Terrifying Last Moments In PIA Cockpit On Flight Audio";
+var p16=document.createElement("p");
+p16.innerHTML="The final moments of the conversation between one of the pilots of the Pakistan International Airlines (PIA) plane which crashed while making an attempt to land in Karachi and the Air Traffic Controller have been recorded on a flight-tracking website";
+var p17=document.createElement("p");
+p17.innerHTML="Friday May 22, 2020";
+p17.style.color="grey";
+div4.appendChild(head8);
+div4.appendChild(p16);
+div4.appendChild(p17);
+
+head9=document.createElement("h4");
+head9.style.textTransform="uppercase";
+head9.innerHTML="Malaysia Believes MH370 Mass Murder-Suicide By Pilot";
+var p21=document.createElement("p");
+p21.innerHTML="Former Australian prime minister Tony Abbott has claimed very top level Malaysian officials believed vanished Flight MH370 was deliberated downed by the captain in a mass murder-suicide";
+var p18=document.createElement("p");
+p18.innerHTML=" Wednesday February 19, 2020";
+p18.style.color="grey";
+div4.appendChild(head9);
+div4.appendChild(p21);
+div4.appendChild(p18);
+
+head10=document.createElement("h4");
+head10.style.textTransform="uppercase";
+head10.innerHTML="Harry Gregg, Manchester United's Munich Air Crash Hero, Dies At 87";
+var p19=document.createElement("p");
+p19.innerHTML="Harry Gregg rescued a mother and her baby daughter, team-mates Bobby Charlton and Jackie Blanchflower and manager Matt Busby from the wreckage of the plane.";
+var p20=document.createElement("p");
+p20.innerHTML="Monday February 17, 2020";
+p20.style.color="grey";
+div4.appendChild(head10);
+div4.appendChild(p19);
+div4.appendChild(p20);
+right.appendChild(div4);
+document.body.appendChild(right);
+
+div5=document.createElement("div");
+div5.style.clear="both";
+div5.style.border="1px solid black";
+div5.style.background="black";
+div5.style.color="white";
+div5.style.height="30px";
+div5.style.width="1320px";
+var p22=document.createElement("p");
+p22.innerHTML="The copyright symbol, or copyright sign, ©, is the symbol used in copyright notices";
+div5.appendChild(p22);
+document.body.appendChild(div5);
+
+   	
+</script>
+</body>
+</html>
